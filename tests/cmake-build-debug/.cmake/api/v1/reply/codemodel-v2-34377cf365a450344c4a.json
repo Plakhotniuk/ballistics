@@ -1,0 +1,299 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "googletest-master",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-master-Debug-11c24ba5a35be6a84f6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "googletest-master"
+				},
+				{
+					"build" : "googletest-master/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-master.googlemock-Debug-cfe4a5fd85363f2eb16f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "googletest-master/googlemock",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "googletest-master/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-master.googletest-Debug-ab0d32c301eaebea5a2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "googletest-master/googletest",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "utility",
+					"jsonFile" : "directory-utility-Debug-2eb7dd1ba56601e7e215.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utility",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4
+					],
+					"name" : "Ballistics",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Utility::@23b027168f11ea0d609c",
+					"jsonFile" : "target-Utility-Debug-d6e934cfe97495462a2e.json",
+					"name" : "Utility",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@007f8d9bf340d4fe6913",
+					"jsonFile" : "target-gmock-Debug-bc3b2f7312f107668499.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@007f8d9bf340d4fe6913",
+					"jsonFile" : "target-gmock_main-Debug-c5d55632958203661412.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@f5d8686f3b9b4fbaa54d",
+					"jsonFile" : "target-gtest-Debug-d13629380f2dc20a1b4a.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@f5d8686f3b9b4fbaa54d",
+					"jsonFile" : "target-gtest_main-Debug-2338d2d2783aa98a67b6.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_Shadow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_Shadow-Debug-fb91d85e3dbd26b18dd2.json",
+					"name" : "run_test_Shadow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_ThirdBodyGravity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_ThirdBodyGravity-Debug-0d680209b9b0902e22ba.json",
+					"name" : "run_test_ThirdBodyGravity",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_atmosphere::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_atmosphere-Debug-f59fd12c4b0e0b2d7882.json",
+					"name" : "run_test_atmosphere",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_differentialCorrection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_differentialCorrection-Debug-2a616d657ba9ab9cf2fe.json",
+					"name" : "run_test_differentialCorrection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_ephemeris::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_ephemeris-Debug-40c723cc4ad16a72d165.json",
+					"name" : "run_test_ephemeris",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_explicitRungeKutta::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_explicitRungeKutta-Debug-092412b535bb4acb573a.json",
+					"name" : "run_test_explicitRungeKutta",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_frame_convertations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_frame_convertations-Debug-ddaed6b268c9c5614dc6.json",
+					"name" : "run_test_frame_convertations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_geographic_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_geographic_lib-Debug-1ea0973c7b3ab0e57e15.json",
+					"name" : "run_test_geographic_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_orbits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_orbits-Debug-053ffdf52f55007cadf1.json",
+					"name" : "run_test_orbits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_test_time_convertations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_test_time_convertations-Debug-e5507e948531cecbc178.json",
+					"name" : "run_test_time_convertations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/cmake-build-debug",
+		"source" : "/Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

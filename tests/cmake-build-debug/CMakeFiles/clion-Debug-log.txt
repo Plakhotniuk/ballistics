@@ -1,0 +1,36 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -DWITH_TESTS=ON -G Ninja -S /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests -B /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/cmake-build-debug
+-- The C compiler identification is AppleClang 14.0.3.14030022
+-- The CXX compiler identification is AppleClang 14.0.3.14030022
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python: /usr/local/Frameworks/Python.framework/Versions/3.10/bin/python3.10 (found version "3.10.11") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_Shadow.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_ThirdBodyGravity.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_atmosphere.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_differentialCorrection.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_ephemeris.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_explicitRungeKutta.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_frame_convertations.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_geographic_lib.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_orbits.cpp
+TEST_FILE: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/test_time_convertations.cpp
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    WITH_TESTS
+
+
+-- Build files have been written to: /Users/arseniy/study/CompMech/ballistics-plakhotniuk-arseniy/tests/cmake-build-debug
