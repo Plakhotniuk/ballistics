@@ -5,7 +5,7 @@
 #include <iostream>
 #include <vector>
 #include "gtest/gtest.h"
-
+using namespace Ballistics;
 TEST(ATMOSPHERE1, TEST1){
     const std::string FILE_PATH = __FILE__;
     const std::string dir_path = FILE_PATH.substr(0, FILE_PATH.size() - 19);
